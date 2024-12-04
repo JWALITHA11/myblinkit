@@ -1,0 +1,10 @@
+.text{
+    font-weight: 200;
+}
+.button-cart{
+    text-align: center;
+    color:chartreuse;
+    border-color: chartreuse;
+    border-radius:5px;
+    padding:6px;
+}

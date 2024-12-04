@@ -1,0 +1,150 @@
+*{
+     margin:0;
+    padding:0; 
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+}
+.header-part{
+    width: 100%;
+    height: 86px; 
+   
+ 
+    border-bottom:1px solid rgb(238, 238, 238);
+    border-color:white;
+    display:flex;
+    grid-template-columns:repeat(6,1fr);
+    align-items:center; 
+    
+    gap:70px;  
+}
+.head-search img{
+    /* width:500px;
+    height:46px; */
+    margin-top:5px;
+}
+
+.header-login a{
+    text-decoration: none;
+}
+
+.paan-corner{
+    width:100%;
+   
+}
+.paan-corner img {
+    width: 100%; 
+    height: auto;
+    display:flex;
+}
+.pharmacy img{
+    margin-left:20px;
+}
+
+.Food-items img{
+     display:flex; 
+     align-items: center;
+    
+}
+.Dairy{
+   
+    margin-left:30px;
+    display:flex;
+    width:100%;
+    gap:3px;
+}
+.First{
+    margin: 10px;
+    border: 1px solid rgb(87, 86, 86);
+    border-radius:10px;
+    padding:12px;
+    gap:30px;
+    
+    
+   
+}
+
+.pricing{
+    display:flex;
+    gap:90px;
+    
+}
+
+.head{
+    color:black
+}
+.First button{
+    text-align: center;
+    color:chartreuse;
+    border-color: chartreuse;
+    border-radius:5px;
+    padding:6px;
+}
+.First{
+    text-align:center;
+}
+
+.First img{
+    margin-left:8px;
+    width:100%;
+    height:120px;
+}
+
+/* .hleft{
+    float:left;
+} */
+.categories{
+    margin:26px;
+}
+.main-links{
+    display:flex;
+    gap:60px;
+}
+.cat-see{
+    display:flex;
+}
+
+.foot-left{
+    margin:126px;
+}
+
+.download{
+    display:flex;
+    gap:40px;
+    margin:126px;
+
+}
+.download img{
+    width:80px;
+    height:70px;
+}
+
+.text{
+    font-weight: 100;
+}
+
+.header-button{
+    /* margin-right:4px; */
+    background-color:green;
+    text-align: center;
+    color:white;
+    border:white;
+    border-radius:10px;
+    width:100px;
+    display:flex;
+   
+}
+.header-delivery-desc{
+    display:flex;
+}
+
+.search-bar{
+    width:500px;
+    height:35px;
+    border:1px solid rgb(87, 86, 86);
+    border-radius:10px;
+    background-color:rgba(5, 43, 43, 0.068);
+}
+.header-login{
+    display:flex;
+    gap:100px;
+}

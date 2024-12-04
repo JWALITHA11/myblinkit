@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blinkit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images\blinkit-logo-568D32C8EC-seeklogo.com.png">
+    <!-- <script>alert("Are you ok")</script> -->
+     <script>
+        function myfun(){
+            document.getElementById("cart").innerHTML="Item added to cart";
+        }
+
+        function myfunction(button){
+           button.innerHTML="+1";
+        }
+     </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-part">
+            <!--div class="hleft"> -->
+                <img src="data:image/png;base64,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"
+                    target="_blank" width=100px height=100px  />
+                <div class="header-deliver">
+                <div class="header-deliver-data"><b>Delivery in 11 minutes</b></div>
+                
+                    <div class="header-delivery-desc">Delhi,India
+                        <!-- <form class="header-delivery-desc"> -->
+                         <select style="width:20px";name="Cities"> 
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Bengaluru">Bengaluru</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Uttarpradesh">Uttarpradesh</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Patna">Patna</option>
+                            <option value="Goa">Goa</option>
+                        </select> 
+                    <!-- </form> -->
+                    </div>
+                </div>
+                <div class="head-search">
+                    
+                    <img src="images/s2.jpg" width=10px height=20px/>
+                    <input class="search-bar" type="text" placeholder="      ">
+                    
+                </div>
+                <div class="header-login" >
+                    <a href="login.html" class="button">Login</a></div>
+                <div class="header-cart">
+                    <button class="header-button" onclick="myfun()">
+                        <!-- <script>window.alert(OK)</script> -->
+                    <img src="images\cart.png"
+                        target="_blank" width=40% height=auto>
+                       <h4 id="cart" style="padding-top: 8px;" >My Cart </h4>
+                       
+                    </button>
+                </div>
+            </div> 
+             <!-- </div>  -->
+        </div>
+
+    </header>
+    <br>
+    <hr>
+    <main>
+        <div class="paan-corner">
+            
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=2700/layout-engine/2022-05/Group-33704.jpg"
+                target="_blank"/>
+        </div>
+        <div class="pharmacy">
+            
+            <a href="Blinkit\pharma.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg"
+                target="_blank" width=30% height=auto></a>
+            <a href="Blinkit\petcare.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/Pet-Care_WEB.jpg"
+                target="_blank" width=30% height=auto></a>
+                <a href="Blinkit\babycare.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-03/babycare-WEB.jpg"
+                target="_blank" width=30% height=auto></a>
+        </div>
+        <div class="Food-Items">
+            <a href="Blinkit\paan.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png"
+                target="_blank" width=15% height=20%></a>
+            <a href="Blinkit\food-items-2.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-2_10.png"
+                target="_blank" width=15% height=20%></a>
+            <a href="Blinkit\food-items-3.html">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-3_9.png"
+                width=15% height=20%></a>
+            <a href="Blinkit\food-items-4.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-4_9.png"
+                width=15% height=20%></a>
+            <a href="Blinkit\food-items-5.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-5_4.png"
+                width=15% height=20%/></a>
+            <a href="Blinkit\food-items-6.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-6_5.png"
+                width=15% height=20%/></a>
+            <a href="Blinkit\food-items-7.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-7_3.png"
+                width=15% height=20%/></a>
+            <a href="Blinkit\food-items-8.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-8_4.png"
+                width=15% height=20%/></a>
+            <a href="Blinkit\food-items-9.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-9_3.png"
+                width=15% height=20%/></a>
+            <a href="Blinkit\food-items-10.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-10.png"
+                width=15% height=20%/></a>
+            <a href="Blinkit\food-items-11.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-11.png"
+                width=15% height=20%/></a>
+            <a href="Blinkit\food-items-12.html">
+            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-12.png"
+                width=15% height=20%/></a>
+
+        </div>
+        <br>
+        <h2 style="margin-left:10px;"><b>Dairy, Bread & Eggs</b></h2>
+        <!-- <h2>Dairy , Bread & Eggs</h2> -->
+        <div class="Dairy">
+             <div class="First">
+                <a href="Blinkit\dairy.html" target="_blank">
+                <img
+                    src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e3f63e12-631f-4193-9160-ea4ddcbd6c5c.jpg?ts=1711189562"/>
+                </a>
+                    <p>8 Mins</p>
+                <p> Mother Dairy Toned </p>
+                <p>Fresh milk</p>
+                <div class="quantity">
+                    <p>500ml</p>
+                </div>
+                <div class="pricing">
+                    <p>₹ 28</p>
+                    <button class="addToCart" onclick="myfunction(this)">Add </button>
+                </div>
+            </div> 
+            <div class="First">
+                <a href="Blinkit\dairy2.html" target="_blank">
+                <img
+                    src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142"/>
+                </a>
+                    <p>8 Mins</p>
+                <p> Amul Gold Full Cream </p>
+                <p>Fresh milk</p>
+                <div class="quantity">
+                    <p>500ml</p>
+                </div>
+                <div class="pricing">
+                    <p>₹ 28</p>
+                    <button class="addToCart" onclick="myfunction(this)">Add </button>
+                </div>
+            </div>
+            <div class="First">
+                <a href=Blinkit\dairy3.html target="_self">
+                <img
+                    src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/5ee4441d-9109-48fa-9343-f5ce82b905a6.jpg?ts=1706182143"/>
+                </a>
+                    <p>8 Mins</p>
+                <p> Amul Toned taaza</p>
+                <p>Fresh milk</p>
+                <div class="quantity">
+                    <p>500ml</p>
+                </div>
+                <div class="pricing">
+                    <p>₹ 28</p>
+                    <button class="addToCart" onclick="myfunction(this)">Add </button>
+                </div>
+            </div>
+            <div class="First">
+                <a href="Blinkit\dairy4.html">
+                <img
+                    src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/86446a.jpg?ts=1687948913"/>
+                </a>
+                <p>8 Mins</p>
+                <p> Mother dairy </p>
+                <p>Classic Curd</p>
+                <div class="quantity">
+                    <p>500ml</p>
+                </div>
+                <div class="pricing">
+                    <p>₹ 28</p>
+                    <button class="addToCart" onclick="myfunction(this)">Add </button>
+                </div>
+            </div>
+            <div class="First">
+                <a href="Blinkit\dairy5.html" target="_self">
+                <img
+                    src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/ba929c05-aba2-4838-b674-e2072089022b.jpg?ts=1712325614"/>
+                </a>
+                <p>8 Mins</p>
+                <p> Mother diary Cow </p>
+                <p>Fresh milk</p>
+                <div class="quantity">
+                    <p>500ml</p>
+                </div>
+                <div class="pricing">
+                    <p>₹ 28</p>
+                    <button class="addToCart" onclick="myfunction(this)">Add </button>
+                </div>
+            </div>
+            <div class="First">
+                <a href="Blinkit\dairy6.html" target="_self">
+                <img
+                    src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314"/>
+                </a>
+                <p>8 Mins</p>
+                <p> Amul </p>
+                <p>Salted Butter</p>
+                <div class="quantity">
+                    <p>500ml</p>
+                </div>
+                <div class="pricing">
+                    <p>₹ 28</p>
+                    <button class="addToCart" onclick="myfunction(this)">Add </button>
+                </div>
+            </div>
+            <div class="First">
+                <a href="Blinkit\dairy7.html">
+                <img
+                    src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/42139f09-bfa0-4445-9827-bae0e2f3e52b.jpg?ts=1726817074"/>
+                </a>
+                    <p>8 Mins</p>
+                <p> Harvest Gold 100% Aata</p>
+                <p>Whole wheat bread</p>
+                <div class="quantity">
+                    <p>500ml</p>
+                </div>
+                <div class="pricing">
+                    <p>₹ 28</p>
+                    <button class="addToCart" onclick="myfunction(this)">Add </button>
+                </div>
+            </div>
+        </div>
+        <div class="main-links">
+            <div class="categories">
+                <h2>Useful Links</h2>
+                <br>
+                <h4 class="text"><i>About</i></h4>
+                <h4 class="text">Careers</h4>
+                <h4 class="text">Blog</h4>
+                <h4 class="text">Press</h4>
+                <h4 class="text">Lead</h4>
+                <h4 class="text">Value</h4>
+            </div>
+
+            <div class="categories">
+                <br>
+                <br>
+                <br>
+                <h4 class="text"><i>Privacy</i></h4>
+                <h4 class="text">Terms</h4>
+                <h4 class="text">FAQs</h4>
+                <h4 class="text">Security</h4>
+                <h4 class="text">Mobile</h4>
+                <h4 class="text">Contact</h4>
+            </div>
+
+            <div class="categories">
+                <br>
+                <br>
+                <br>
+                <h4 class="text">Partner<i></i></h4>
+                <h4 class="text">Franchise</h4>
+                <h4 class="text">Warehouse</h4>
+                <h4 class="text">Seller</h4>
+                <h4 class="text">Deliver</h4>
+                <h4 class="text">Resources</h4>
+            </div>
+            <div class="see-all">
+                <div class="cat-see">
+
+                    <h2>Categories</h2>
+                    <pre><h3>    see all</h3></pre>
+                </div>
+                <br>
+                <br>
+                <br>
+                <h4 class="text"><i>Vegetables & Fruits</i></h4>
+                <h4 class="text">Cold Drinks & Juices</h4>
+                <h4 class="text">Bakery & Biscuits</h4>
+                <h4 class="text">Dry Fruits , Masala & Oil</h4>
+                <h4 class="text">Paan Corner</h4>
+                <h4 class="text">Pharma & Wellness</h4>
+                <h4 class="text">Ice Creams & Frozen desserts</h4>
+                <h4 class="text">Beauty & Cosmetics</h4>
+                <h4 class="text">Magazines</h4>
+            </div>
+
+            <div class="see-all">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h4 class="text"><i>Dairy & Breakfast</i></h4>
+                <h4 class="text">Instant & Frozen Food</h4>
+                <h4 class="text">Sweet Tooth</h4>
+                <h4 class="text"> Sauces & Spreads</h4>
+                <h4 class="text">Organic & Premium</h4>
+                <h4 class="text">Cleaning Essentials</h4>
+                <h4 class="text">Personal care</h4>
+                <h4 class="text">Books</h4>
+                <h4 class="text">Print Store</h4>
+            </div>
+
+            <div class="see-all">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h4 class="text"><i>Munchies</i></h4>
+                <h4 class="text">Tea , Coffee & Health Drinks</h4>
+                <h4 class="text">Atta,Rice&Dal</h4>
+                <h4 class="text"> Chicken,Meat & Fish</h4>
+                <h4 class="text">Baby Care</h4>
+                <h4 class="text">House & Office</h4>
+                <h4 class="text">Pet Care</h4>
+                <h4 class="text">Toys & Games</h4>
+                <h4 class="text">Navaratri Specials</h4>
+            </div>
+        </div>
+    </main>
+
+    <footer class="foot">
+        <div class="foot-left">
+            <br>
+            <br>
+            <h4 class="text">© Blink Commerce Private Limited, 2016-2024</h4>
+        </div>
+
+        <div class="download">
+            <h4>Download App</h4>
+            <img src="https://blinkit.com/d61019073b700ca49d22.png" target="_blank" width=20% height=10%>
+            <img src="https://blinkit.com/8ed033800ea38f24c4f0.png" target="_blank" width=10% height=10%>
+            <img src="data:image/png;base64,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" target="_blank" width=10%
+                height=20%/>
+            <img src="C:\Users\JwalithaMarella\OneDrive - Everest DX,Inc\Documents\HTML\images\twitter.png"
+                target="_blank" width=10% height=0%/>
+            <img src="C:\Users\JwalithaMarella\OneDrive - Everest DX,Inc\Documents\HTML\images\Instagram.png"
+                target="_blank" width=10% height=0%/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQn9YieLhcApDHW-34sP9XOZESq2n9NfvEw&s"
+                target="_blank" width=10% height=0%/>
+            <img src="data:image/png;base64,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
+            Ob0OZP//gPFOrE6s16j3AAAAABJRU5ErkJggg==" target="_blank" width=10% height=0%/>
+        </div>
+        <h4 class="text">"Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related, linked or
+            interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business
+            operated by “Redstone Consultancy Services Private Limited”.</h4>
+
+
+
+
+    </footer>
+</body>
+
+</html>
